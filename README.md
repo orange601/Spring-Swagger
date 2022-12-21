@@ -41,3 +41,7 @@ OpenAPI Specification을 json또는 yaml로 기술한 문서를 swagger-ui를 �
 1. Swagger Editor : 브라우저 기반의 편집기, OpenAPI Spec을 쉽게 작성할 수 있게 도와줌
 2. Swagger UI : OpenAPI spec문서를 브라우저에서 확인할 수 있게 해줌, API Test도 가능
 3. Swagger Codegen : OpenAPI spec에 맞게 Server나 Client의 stub code생성
+
+### OpenAPI Tool ###
+- OpenAPI  Specification을 Implement하기위한 Tool들은 Swagger말고도 종류가 많다.
+- https://github.com/OAI/OpenAPI-Specification/blob/main/IMPLEMENTATIONS.md
