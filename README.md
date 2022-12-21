@@ -11,7 +11,7 @@ Swagger 사용하기
 - Spring에서 API 자동 문서화를 수행
 - springfox-boot-starter는 Jul 14, 2020 이후로 개발이 업데이트 되지 않고 있다.
 - https://github.com/springfox/springfox github에서도 2년전이 마지막으로 업데이트가 되지 않고 있다.
-- SpringBoot 2.6.x 에서 springfox 3.0 사용시 에러
+- SpringBoot 2.6.x 에서 springfox 3.0 사용시 **에러**
   ````java
   org.springframework.context.ApplicationContextException:
   Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
