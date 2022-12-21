@@ -34,8 +34,8 @@ Swagger 사용하기
 - https://dev-minji.tistory.com/m/144
 
 **해결방법**
-````java
-// swaggerConfig.java 안에 bean 추가
+	````java
+	// swaggerConfig.java 안에 bean 추가
 	@Bean
 	public WebMvcEndpointHandlerMapping webEndpointServletHandlerMapping(WebEndpointsSupplier webEndpointsSupplier
 			, ServletEndpointsSupplier servletEndpointsSupplier
@@ -67,7 +67,7 @@ Swagger 사용하기
 				&& (StringUtils.hasText(basePath) 
 				|| ManagementPortType.get(environment).equals(ManagementPortType.DIFFERENT));
 	}
-````
+	````
 
 ## SpringDoc ###
 - 공식 사이트: https://springdoc.org/#Introduction
