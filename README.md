@@ -11,16 +11,15 @@ Swagger 사용하기
 - Spring에서 API 자동 문서화를 수행
 - springfox-boot-starter는 Jul 14, 2020 이후로 개발이 업데이트 되지 않고 있다.
 - https://github.com/springfox/springfox github에서도 2년전이 마지막으로 업데이트가 되지 않고 있다.
-- SpringBoot 2.6.x 에서 springfox 3.0 사용시 **에러**
- 
+- SpringBoot 2.6.x 에서 springfox 3.0 사용시 **에러** 
  ````java
   org.springframework.context.ApplicationContextException:
   Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
   ````
+  
 - Spring boot 2.6버전 이후에 spring.mvc.pathmatch.matching-strategy 값이 ant_apth_matcher에서 path_pattern_parser로 변경되면서 몇몇 라이브러리(swagger포함)에 오류가 발생한다고 한다.
   
-  1. 해결방법: application.properties 설정추가 한다.
-  
+  1. application.properties 설정추가 한다.  
   ````propeties
   spring.mvc.pathmatch.matching-strategy=ant_path_matcher
   ````
