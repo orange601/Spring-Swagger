@@ -10,6 +10,9 @@ Swagger 사용하기
 - springfox-boot-starter는 Jul 14, 2020 이후로 개발이 업데이트 되지 않고 있다.
 - https://github.com/springfox/springfox github에서도 2년전이 마지막으로 업데이트가 되지 않고 있다.
 
+### SpringDoc ###
+- 현재(22년12월21일) Maven Repository에서 Dec 16, 2022 에 업데이트가 되었다. 계속 업데이트 중이다.
+
 ## Swagger 공식 사이트 ##
 - https://swagger.io/
 - https://swagger.io/tools/swagger-ui/
