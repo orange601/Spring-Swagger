@@ -17,7 +17,8 @@ Swagger 사용하기
 - spring.mvc.pathmatch.matching-strategy 값이 ant_apth_matcher에서 path_pattern_parser로 변경되면서 오류가 발생
  ````java
  // Error Log
-org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+org.springframework.context.ApplicationContextException: 
+Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
   ````
   
 **해결방법**
