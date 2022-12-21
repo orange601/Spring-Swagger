@@ -29,3 +29,8 @@ Swagger 사용하기
   - OpenAPI: 이전에 Swagger Specification으로 알려진 Specification 자체 (RESTful API 디자인에 대한 정의(Specification))
   - swagger: OpenAPI를 Implement하기 위한 도구 (SmartBear사의 tool)
   - 즉 Swagger는 API들이 갖고 있는 specification을 정의할 수 있는 툴들 중 하나
+
+
+![swagger](https://user-images.githubusercontent.com/24876345/208798428-82d1df31-9590-400d-b710-5300853a288d.png)
+
+OpenAPI Specification을 json또는 yaml로 기술한 문서를 swagger-ui를 통해 띄우게되면 브라우저에서 편리하게 API문서를 볼 수 있다.
