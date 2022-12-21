@@ -21,16 +21,11 @@ Swagger 사용하기
 
 
 ## OpenAPI vs Swagger ##
-
-Swagger는 2010년대 초 Tam Wordnik이라는 사람이 개발하기 시작했다.   
-
-처음에는 모든걸 포함하는 방법론이 아니라, Wordnik(회사) 자체 API용 UI로 개발되었고,    
-2015년초에 SmartBear라는 회사에서 Swagger를 인수   
-
-그리고 2015년 말, SmartBear는 Linux Foundation의 후원으로 OpenAPI Initiative에 Swagger를 기부하면서 OpenAPI Specification으로 이름이 변경되었다.
-
-하지만 현재도 여전히 Swagger는 사용되는 용어이다. 지금은 어떤의미로 쓰이는걸까
-
-OpenAPI : 이전에 Swagger Specification으로 알려진 Specification 자체 (RESTful API 디자인에 대한 정의(Specification))
-Swagger : OpenAPI를 Implement하기 위한 도구 (SmartBear사의 tool)
-즉 Swagger는 API들이 갖고 있는 specification을 정의할 수 있는 툴들 중 하나
+1. 2010년 Tam Wordnik가 **Swagger** 개발 시작   
+2. 처음에는 모든걸 포함하는 방법론이 아니라, Wordnik(회사) 자체 API용 UI로 개발    
+3. 2015년 초 SmartBear(회사)에서 Swagger 인수   
+4. 2015년 말 SmartBear는 Linux Foundation의 후원으로 OpenAPI Initiative에 Swagger를 기부하면서 OpenAPI Specification으로 이름이 변경되었다.
+5. 하지만 현재도 Swagger는 사용되는 용어이다.
+  - OpenAPI: 이전에 Swagger Specification으로 알려진 Specification 자체 (RESTful API 디자인에 대한 정의(Specification))
+  - swagger: OpenAPI를 Implement하기 위한 도구 (SmartBear사의 tool)
+  - 즉 Swagger는 API들이 갖고 있는 specification을 정의할 수 있는 툴들 중 하나
