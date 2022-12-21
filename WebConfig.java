@@ -40,10 +40,6 @@ public class WebConfig implements WebMvcConfigurer {
     
     
     
-	/**
-	 * Actuator(+spring fox PathPatternParser 이슈)
-	 * 참고: https://dev-minji.tistory.com/m/144
-	 * */
 	@Bean
 	public WebMvcEndpointHandlerMapping webEndpointServletHandlerMapping(WebEndpointsSupplier webEndpointsSupplier
 			, ServletEndpointsSupplier servletEndpointsSupplier
