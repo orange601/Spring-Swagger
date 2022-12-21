@@ -1,6 +1,13 @@
 # Spring-Swagger
 Swagger 사용하기
 
+## Swagger란 ##
+- API 스펙 명세 및 관리를 목적으로 하며, API에 대해 테스트해 볼 수 있는 UI를 제공해주는 개발도구
+
+### Springfox ###
+- 스프링 애플리케이션에서 Swagger를 쉽게 사용하기 위한 기능을 제공한다. 
+- 스프링 애플리케이션에서 API 자동 문서화를 수행
+
 ## Swagger 공식 사이트 ##
 - https://swagger.io/
 - https://swagger.io/tools/swagger-ui/
