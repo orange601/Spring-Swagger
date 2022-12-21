@@ -6,27 +6,34 @@ Swagger 사용하기
 - 공식 사이트: https://swagger.io/
 - 공식 사이트: https://swagger.io/tools/swagger-ui/
 
-### 1. Springfox ###
+## Springfox ##
 - Spring에서 Swagger를 쉽게 사용하기 위한 기능을 제공한다. 
 - Spring에서 API 자동 문서화를 수행
 - springfox-boot-starter는 Jul 14, 2020 이후로 개발이 업데이트 되지 않고 있다.
-- https://github.com/springfox/springfox github에서도 2년전이 마지막으로 업데이트가 되지 않고 있다.
-- SpringBoot 2.6.x 에서 springfox 3.0 사용시 **에러** 
+- springfox 공식 github에서도 2년 전 마지막으로 업데이트가 되지 않고 있다. https://github.com/springfox/springfox
+- 그로인하여 에러들이 존재한다.
+
+### 1. SpringBoot 2.6.x 에서 springfox 3.0 사용 ###
+- spring.mvc.pathmatch.matching-strategy 값이 ant_apth_matcher에서 path_pattern_parser로 변경되면서 오류가 발생
  ````java
+ // Error Log
   org.springframework.context.ApplicationContextException:
   Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
   ````
   
-- Spring boot 2.6버전 이후에 spring.mvc.pathmatch.matching-strategy 값이 ant_apth_matcher에서 path_pattern_parser로 변경되면서 몇몇 라이브러리(swagger포함)에 오류가 발생한다고 한다.
-  
-  1. application.properties 설정추가 한다.  
+**해결방법**
+1. application.properties 설정 추가
   ````propeties
   spring.mvc.pathmatch.matching-strategy=ant_path_matcher
   ````
-  
-  2. 혹은 Spring Boot 버전을 2.5.x로 낮추고 사용하는 방법도 있다.
 
-### 2. SpringDoc ###
+2. 혹은 Spring Boot 버전을 2.5.x로 낮추고 사용하는 방법
+
+### 2. Actuator와 spring fox PathPatternParser 이슈 ###
+- 
+- https://dev-minji.tistory.com/m/144
+
+## SpringDoc ###
 - 공식 사이트: https://springdoc.org/#Introduction
 - 현재(22년12월21일) Maven Repository에서 Dec 16, 2022 에 업데이트가 되었다. 계속 업데이트 중이다.
 
