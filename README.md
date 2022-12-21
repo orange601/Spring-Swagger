@@ -12,10 +12,19 @@ Swagger 사용하기
 - springfox-boot-starter는 Jul 14, 2020 이후로 개발이 업데이트 되지 않고 있다.
 - https://github.com/springfox/springfox github에서도 2년전이 마지막으로 업데이트가 되지 않고 있다.
 - SpringBoot 2.6.x 에서 springfox 3.0 사용시 **에러**
-  ````java
+ 
+ ````java
   org.springframework.context.ApplicationContextException:
   Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
   ````
+  
+  1. 해결방법: application.properties 설정추가 한다.
+  
+  ````propeties
+  spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+  ````
+  
+  2. 혹은 Spring Boot 버전을 2.4.2로 낮추고 사용하는 방법도 있다.
 
 ### 2. SpringDoc ###
 - 공식 사이트: https://springdoc.org/#Introduction
