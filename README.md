@@ -75,12 +75,12 @@ Swagger 사용하기
 
 ## OpenAPI? Open API? ##
 
-### Open API ###
+### 1. Open API ###
 - 단어 그대로 개방된 API 이다.
 - 예를 들어, 기상청의 단기예보 조회API, 우체국의 우편번호 API 등이 있다. 
 - Public API라고도 부른다.
 
-### OpenAPI ###
+### 2. OpenAPI ###
 - penAPI또는 OpenAPI Specification(OAS)라고 부르는데, 이는 RESTful API를 기 정의된 규칙에 맞게 API spec을 json이나 yaml로 표현하는 방식을 의미
 - 직접 소스코드나 문서를 보지 않고 서비스를 이해할 수 있다는 장점이 있다.
 - 예전에는 Swagger 2.0와 같은 이름으로 불렸다가 현재는 3.0버전으로 올라오면서 OpenApi 3.0 Specification으로 부른다.
