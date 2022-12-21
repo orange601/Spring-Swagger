@@ -24,7 +24,7 @@ Swagger 사용하기
   spring.mvc.pathmatch.matching-strategy=ant_path_matcher
   ````
   
-  2. 혹은 Spring Boot 버전을 2.4.2로 낮추고 사용하는 방법도 있다.
+  2. 혹은 Spring Boot 버전을 2.5.x로 낮추고 사용하는 방법도 있다.
 
 ### 2. SpringDoc ###
 - 공식 사이트: https://springdoc.org/#Introduction
