@@ -45,3 +45,7 @@ OpenAPI Specification을 json또는 yaml로 기술한 문서를 swagger-ui를 �
 ### OpenAPI Tool ###
 - OpenAPI  Specification을 Implement하기위한 Tool들은 Swagger말고도 종류가 많다.
 - https://github.com/OAI/OpenAPI-Specification/blob/main/IMPLEMENTATIONS.md
+
+
+### OpenAPI 2.0 vs OpenAPI 3.0 ###
+- 2015년 Swagger Specification을 OpenAPI Initiative에 기부하면서 OpenAPI Specification(OAS)로 명칭이 바뀌었고, 그 이후 첫번째 major release가 ***OAS3.0***입니다.
