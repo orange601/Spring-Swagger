@@ -34,3 +34,10 @@ Swagger 사용하기
 ![swagger](https://user-images.githubusercontent.com/24876345/208798428-82d1df31-9590-400d-b710-5300853a288d.png)
 
 OpenAPI Specification을 json또는 yaml로 기술한 문서를 swagger-ui를 통해 띄우게되면 브라우저에서 편리하게 API문서를 볼 수 있다.
+
+
+## Swagger 도구 ##
+- swagger도 여러 도구가 있다.
+1. Swagger Editor : 브라우저 기반의 편집기, OpenAPI Spec을 쉽게 작성할 수 있게 도와줌
+2. Swagger UI : OpenAPI spec문서를 브라우저에서 확인할 수 있게 해줌, API Test도 가능
+3. Swagger Codegen : OpenAPI spec에 맞게 Server나 Client의 stub code생성
