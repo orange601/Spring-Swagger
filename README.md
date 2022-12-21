@@ -3,6 +3,7 @@ Swagger 사용하기
 
 ## Swagger란 ##
 - API 스펙 명세 및 관리를 목적으로 하며, API에 대해 테스트해 볼 수 있는 UI를 제공해주는 개발도구
+- 비슷한 종류로 Spring Rest Docs가 있다.
 - 공식 사이트: https://swagger.io/
 - 공식 사이트: https://swagger.io/tools/swagger-ui/
 - Spring에서 swagger를 사용하기 위해서는 Springfox 혹은 Springdoc 을 사용해야한다.
