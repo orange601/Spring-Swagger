@@ -3,6 +3,8 @@ Swagger 사용하기
 
 ## Swagger란 ##
 - API 스펙 명세 및 관리를 목적으로 하며, API에 대해 테스트해 볼 수 있는 UI를 제공해주는 개발도구
+- 공식 사이트: https://swagger.io/
+- 공식 사이트: https://swagger.io/tools/swagger-ui/
 
 ### Springfox ###
 - 스프링 애플리케이션에서 Swagger를 쉽게 사용하기 위한 기능을 제공한다. 
@@ -11,11 +13,8 @@ Swagger 사용하기
 - https://github.com/springfox/springfox github에서도 2년전이 마지막으로 업데이트가 되지 않고 있다.
 
 ### SpringDoc ###
+- 공식 사이트: https://springdoc.org/#Introduction
 - 현재(22년12월21일) Maven Repository에서 Dec 16, 2022 에 업데이트가 되었다. 계속 업데이트 중이다.
-
-## Swagger 공식 사이트 ##
-- https://swagger.io/
-- https://swagger.io/tools/swagger-ui/
 
 ## OpenAPI? Open API? ##
 
