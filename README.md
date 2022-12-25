@@ -11,7 +11,6 @@ Swagger 사용하기
 ## Springfox ##
 - 공식 사이트: https://springfox.github.io/springfox/docs/current/
 - Spring에서 Swagger를 쉽게 사용하기 위한 기능을 제공한다. 
-- Spring에서 API 자동 문서화를 수행
 - maven repository springfox-boot-starter는 Jul 14, 2020 이후로 업데이트가 되지 않고 있다.
 - [공식 사이트](https://springfox.github.io/springfox/docs/current/)에 접속해서 제일 아래에 "Last updated 2020-06-23 13:45:06" 라고 되어있다.
 - springfox 공식 github에서도 현재(22년12월21일) 기준 2년 전 마지막으로 업데이트가 되지 않고 있다. https://github.com/springfox/springfox
